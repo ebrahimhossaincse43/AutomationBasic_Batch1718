@@ -15,7 +15,7 @@ public class BaseDriver {
 	
 	@BeforeSuite
 	public void start() {
-		String browser = System.getProperty("browser", "firefox");
+		String browser = System.getProperty("browser", "chrome");
 		
 		if(browser.contains("chrome")) {
 			WebDriverManager.chromedriver().setup();
@@ -33,5 +33,4 @@ public class BaseDriver {
 	public void close() {
 		driver.close();
 	}
-
 }

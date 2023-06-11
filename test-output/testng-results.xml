@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-10T12:29:33 EDT" name="Default suite" finished-at="2023-06-10T12:29:41 EDT" duration-ms="8106">
+  <suite started-at="2023-06-11T13:04:30 EDT" name="Default suite" finished-at="2023-06-11T13:04:50 EDT" duration-ms="19197">
     <groups>
     </groups>
-    <test started-at="2023-06-10T12:29:33 EDT" name="Default test" finished-at="2023-06-10T12:29:41 EDT" duration-ms="8106">
-      <class name="com.it.bd.FirstAutomation">
-        <test-method is-config="true" signature="start()[pri:0, instance:com.it.bd.FirstAutomation@1e1a0406]" started-at="2023-06-10T12:29:30 EDT" name="start" finished-at="2023-06-10T12:29:33 EDT" duration-ms="2903" status="PASS">
+    <test started-at="2023-06-11T13:04:30 EDT" name="Default test" finished-at="2023-06-11T13:04:50 EDT" duration-ms="19197">
+      <class name="com.it.bd.LocatorsExample">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.it.bd.LocatorsExample@1e1a0406]" started-at="2023-06-11T13:04:28 EDT" name="start" finished-at="2023-06-11T13:04:30 EDT" duration-ms="2786" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="firstTest()[pri:0, instance:com.it.bd.FirstAutomation@1e1a0406]" started-at="2023-06-10T12:29:33 EDT" name="firstTest" finished-at="2023-06-10T12:29:41 EDT" duration-ms="8087" status="PASS">
+        <test-method signature="testLocators()[pri:0, instance:com.it.bd.LocatorsExample@1e1a0406]" started-at="2023-06-11T13:04:30 EDT" name="testLocators" finished-at="2023-06-11T13:04:50 EDT" duration-ms="19177" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- firstTest -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.it.bd.FirstAutomation@1e1a0406]" started-at="2023-06-10T12:29:41 EDT" name="close" finished-at="2023-06-10T12:29:42 EDT" duration-ms="885" status="PASS">
+        </test-method> <!-- testLocators -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.it.bd.LocatorsExample@1e1a0406]" started-at="2023-06-11T13:04:50 EDT" name="close" finished-at="2023-06-11T13:04:51 EDT" duration-ms="1015" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- com.it.bd.FirstAutomation -->
+      </class> <!-- com.it.bd.LocatorsExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
