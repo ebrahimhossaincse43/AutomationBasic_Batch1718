@@ -32,19 +32,17 @@ public class CopyAndPasteHandling extends BaseDriver {
 		action.sendKeys("c");
 		action.keyUp(Keys.CONTROL);
 		action.build().perform();
-		Thread.sleep(3000);
 		
 		// Tab
 		action.sendKeys(Keys.TAB);
 		action.build().perform();
-		Thread.sleep(3000);
-	
+
 		// Paste
 		action.keyDown(Keys.CONTROL);
 		action.sendKeys("v");
 		action.keyUp(Keys.CONTROL);
 		action.build().perform();
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 
 	}
 
